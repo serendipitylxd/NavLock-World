@@ -118,14 +118,10 @@ one scene are assigned to only one split, so the same lockage sequence does not
 appear across training and evaluation splits.
 
 ```text
-train: 459 scenes, 8463 frames, 199 prediction scenes
-val:    50 scenes,  919 frames,  15 prediction scenes
-test:   50 scenes,  868 frames,  24 prediction scenes
+train: 459 scenes, 8463 frames
+val:    50 scenes,  919 frames
+test:   50 scenes,  868 frames
 ```
-
-Some scenes do not contain a valid future target for the paper's prediction
-protocol. These scenes are still useful for current-state recognition and
-semantic-state evaluation.
 
 ## Rebuilding Sequence Files
 
