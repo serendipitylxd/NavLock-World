@@ -154,5 +154,4 @@ If you find this repository useful, please cite the preprint:
 
 ## License
 
-The final public release license should be selected before making the repository
-public. Until then, please treat this repository as an academic paper preview.
+This repository is released under the MIT License. See `LICENSE` for details.
