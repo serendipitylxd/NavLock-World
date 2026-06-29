@@ -141,14 +141,14 @@ Selected paper figures are available under `docs/figures/`:
 
 ## Citation
 
-If you find this repository useful, please cite the paper:
+If you find this repository useful, please cite the preprint:
 
 ```bibtex
-@article{lu2026navlockworld,
+@misc{lu2026navlockworld,
   title   = {NavLock-World: Action-Conditioned Structured World Modeling for Navigation-Lock Operation},
   author  = {Lu, Xiaodong and others},
-  journal = {IEEE Transactions on Intelligent Transportation Systems},
-  year    = {2026}
+  year    = {2026},
+  note    = {Manuscript under review}
 }
 ```
 
