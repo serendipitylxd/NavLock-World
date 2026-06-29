@@ -1,0 +1,26 @@
+# Core training dependencies for NavLock-World baseline models.
+# GPU build: NVIDIA driver 535.113.01 / CUDA 12.2 can run PyTorch cu121 wheels.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.0+cu121
+torchvision==0.18.0+cu121
+numpy==1.26.4
+tqdm==4.65.2
+PyYAML==6.0.2
+huggingface_hub==0.36.2
+transformers==4.57.1
+accelerate==1.10.1
+peft==0.17.1
+bitsandbytes==0.48.2
+qwen-vl-utils==0.0.14
+einops==0.8.2
+safetensors==0.7.0
+tokenizers==0.22.2
+
+# RTMDet 2D detection backend.
+openmim==0.3.9
+mmengine>=0.8.0,<1.0.0
+mmcv==2.2.0
+mmdet==3.3.0
+opencv-python==4.10.0.84
+open3d==0.19.0
+nuscenes-devkit==1.1.11

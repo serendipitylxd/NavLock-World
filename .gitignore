@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Local data, model weights, and generated artifacts
+/data/
+/outputs/
+/models/
+/third_party/
+/checkpoints/
+/runs/
+/wandb/
+/logs/
+/tmp/
+
+# Paper/private development artifacts
+/latex/
+/fig/
+/doc/
+/.agents/
+/.codex/
+/.claude/
+
+# Local run files
+nohup.out
+*.log
+*.tmp
+*.bak
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*~
