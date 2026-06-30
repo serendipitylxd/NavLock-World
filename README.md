@@ -20,9 +20,6 @@ horizons.
   geometry priors.
 - **NavLock-HY dataset interface.** The code expects a nuScenes-style
   navigation-lock dataset and additional lock-specific annotations.
-- **Paper-facing release.** This repository contains curated source code,
-  configs, scripts, tests, and selected paper figures. Data, model weights,
-  outputs, paper LaTeX sources, and private development notes are not included.
 
 ## Repository Layout
 
