@@ -29,6 +29,24 @@ After downloading, place the dataset at `data/` or create a symlink:
 ln -s /path/to/NavLock-HY data
 ```
 
+To download all release files at once, use the Hugging Face CLI:
+
+```bash
+pip install -U huggingface_hub
+hf download serendipitylxd/NavLock-HY \
+  --repo-type dataset \
+  --local-dir NavLock-HY \
+  --include "README_DOWNLOAD.md" "SHA256SUMS.txt" "NavLock-HY.tar.part-*"
+```
+
+Then verify and extract the split archive:
+
+```bash
+cd NavLock-HY
+sha256sum -c SHA256SUMS.txt
+cat NavLock-HY.tar.part-* | tar -xf -
+```
+
 ## Dataset Scale
 
 The current release package is expected to contain about 86 GB of data. The

@@ -70,7 +70,8 @@ Expected data:
   vessel intention, action validity, observed operation, and future-state
   supervision.
 
-See [docs/DATASET.md](docs/DATASET.md) for the expected structure.
+See [docs/DATASET.md](docs/DATASET.md) for the expected structure and batch
+download commands.
 
 ## Model Weights
 
