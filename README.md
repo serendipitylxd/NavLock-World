@@ -41,11 +41,16 @@ The development environment used in the paper is a Conda environment named
 conda create -n NavLock-World python=3.10 -y
 conda activate NavLock-World
 pip install -r requirements.txt
+export CUDA_HOME=/usr/local/cuda-12.1
+export CUDA_PATH=/usr/local/cuda-12.1
+pip install -e ./third_party/Hydro3DNet
 ```
 
 The RTMDet detector uses MMDetection components. Hydro3DNet is treated as a
-separate 3D detector backend; install its external dependencies according to
-the detector instructions before running the corresponding training scripts.
+separate 3D detector backend: its Python dependencies are included in
+`requirements.txt`, while the detector checkout must be placed at
+`third_party/Hydro3DNet` and installed locally to build its CUDA extensions
+before running the corresponding training scripts.
 
 ## Data
 
