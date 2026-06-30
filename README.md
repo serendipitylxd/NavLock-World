@@ -54,6 +54,7 @@ the detector instructions before running the corresponding training scripts.
 
 NavLock-HY is not included in this repository. Download the public dataset from
 [Hugging Face Datasets: serendipitylxd/NavLock-HY](https://huggingface.co/datasets/serendipitylxd/NavLock-HY),
+or cite it via DOI [10.57967/hf/9373](https://doi.org/10.57967/hf/9373),
 then place it at `data/` or create a symlink:
 
 ```bash

@@ -21,7 +21,7 @@ with download instructions and SHA256 checksums.
 | Resource | Link | Status |
 |---|---|---|
 | Full NavLock-HY dataset | [Hugging Face Datasets: serendipitylxd/NavLock-HY](https://huggingface.co/datasets/serendipitylxd/NavLock-HY) | Available |
-| DOI archive | To be added after DOI assignment | Pending |
+| DOI archive | [https://doi.org/10.57967/hf/9373](https://doi.org/10.57967/hf/9373) | Available |
 
 After downloading, place the dataset at `data/` or create a symlink:
 
