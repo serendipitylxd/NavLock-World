@@ -15,12 +15,13 @@ figures.
 
 ## Download
 
-The full dataset will be released separately after upload.
+The full dataset is released on Hugging Face Datasets as split archive parts
+with download instructions and SHA256 checksums.
 
 | Resource | Link | Status |
 |---|---|---|
-| Full NavLock-HY dataset | [Hugging Face Datasets: serendipitylxd/NavLock-HY](https://huggingface.co/datasets/serendipitylxd/NavLock-HY) | Coming soon |
-| DOI archive | To be added after archival upload | Coming soon |
+| Full NavLock-HY dataset | [Hugging Face Datasets: serendipitylxd/NavLock-HY](https://huggingface.co/datasets/serendipitylxd/NavLock-HY) | Available |
+| DOI archive | To be added after DOI assignment | Pending |
 
 After downloading, place the dataset at `data/` or create a symlink:
 
@@ -144,5 +145,5 @@ under `tools/`. See the repository README for the main paper pipeline.
 - The labels include lock-operation variables that do not exist in standard
   autonomous-driving datasets, such as water-level state, gate state, ideal
   berths, vessel-flow state, operation validity, and future lock-state targets.
-- The complete dataset, checksums, and release manifest will be provided with
-  the external dataset upload.
+- The complete dataset, checksums, and release manifest are provided through
+  the Hugging Face dataset release.
